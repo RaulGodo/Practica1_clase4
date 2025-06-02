@@ -1,0 +1,51 @@
+
+
+    body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    }
+
+header {
+    background-image: url(./assects/portada/pexels-mvdheuvel-2284166.jpg); /* Reemplaza con tu imagen */
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+header h1 {
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    width: 100%;
+    background-color: rgba(182, 20, 20, 0.5); /* Fondo negro semitransparente */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 2.5rem;
+    }
+
+    /* ✅ MEDIA QUERY para tablets (≤ 992px) */
+    @media (max-width: 992px) {
+    header {
+        height: 250px;
+    }
+
+header h1 {
+        font-size: 2rem;
+        padding: 16px;
+        background-color: green;
+    }
+    }
+
+    /* ✅ MEDIA QUERY para móviles (≤ 576px) */
+    @media (max-width: 576px) {
+    header {
+        height: 200px;
+    }
+
+header h1 {
+        font-size: 1.5rem;
+        padding: 12px;
+        background-color: blue;
+    }}
